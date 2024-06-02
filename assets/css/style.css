@@ -1,0 +1,717 @@
+.main {
+  width: 100066px;
+  height: 600px;
+  background-color: #d3d3d3c8;
+}
+.header {
+  top: 40px;
+  left: 142px;
+  display: flex;
+  padding-top: 40px;
+}
+.header > ul {
+  top: 53px;
+  left: 814px;
+  width: 54px;
+  height: 22px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 600 16px/22px Noto Sans;
+  letter-spacing: 0px;
+  color: #1c2126;
+  opacity: 1;
+  display: flex;
+  list-style-type: none;
+  padding-top: 15px;
+  padding-left: 500px;
+}
+.tag1 {
+  padding-right: 390px;
+  color: #1c2126;
+}
+li {
+  padding: 0 50px 0 0px;
+}
+.btn1 > a > button {
+  width: 144px;
+  height: 48px;
+  border-radius: 100px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+.btn2 > a > button {
+  top: 40px;
+  left: 1079px;
+  width: 144px;
+  height: 48px;
+  border-radius: 100px;
+  background: #4525f2 0% 0% no-repeat padding-box;
+}
+.btn1 {
+  margin-right: 50px;
+  padding: 0 0 0 1000px;
+}
+.btn1 .btn2 {
+  display: flex;
+}
+.tag2 {
+  display: inline;
+  color: #1c2126;
+  font-weight: 300; /* Chữ ban đầu mờ */
+  transition: font-weight 0.3s; /* Tạo hiệu ứng chuyển đổi mượt mà */
+}
+.tag2:hover {
+  font-weight: 700; /* Chữ sẽ đậm lên khi di chuột   vào */
+  text-decoration: underline; /* Thêm gạch chân khi di chuột vào */
+  text-decoration-color: blue; /* Gạch chân màu xanh */
+}
+a {
+  color: #1c2126;
+  text-decoration: none;
+}
+.hero > h1 {
+  top: 249px;
+  left: 585px;
+  width: 196px;
+  height: 73px;
+
+  /* UI Properties */
+  text-align: center;
+  font: normal normal bold 60px/68px Proxima Nova;
+  letter-spacing: 1.2px;
+  margin: 100px 0 0 1100px;
+  color: #4525f2;
+  opacity: 1;
+}
+.hero > p {
+  top: 344px;
+  left: 403px;
+  width: 560px;
+  height: 48px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 600 18px/24px Noto Sans;
+  letter-spacing: 0px;
+  color: #1c2126;
+  opacity: 1;
+  margin: 20px 0 0 900px;
+}
+.btn {
+  display: flex;
+}
+.btn3 > a > button {
+  top: 456px;
+  left: 527px;
+  width: 144px;
+  height: 48px;
+  /* UI Properties */
+  background: #f2f4f8 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  opacity: 1;
+  margin-right: 10px;
+}
+.bnt {
+  padding: 0 0 0 200px;
+}
+.btn4 > a > button {
+  top: 456px;
+  left: 695px;
+  width: 144px;
+  height: 48px;
+  /* UI Properties */
+  background: #4525f2 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  opacity: 1;
+}
+.choose > h1 {
+  top: 675px;
+  left: 460px;
+  width: 546px;
+  height: 123px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal bold 52px/60px Proxima Nova;
+  letter-spacing: 0.73px;
+  color: #1c2126;
+  opacity: 1;
+  padding: 50px 0 0 730px;
+}
+.choose > p {
+  top: 819px;
+  left: 426px;
+  width: 514px;
+  height: 44px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 600 16px/22px Noto Sans;
+  letter-spacing: 0px;
+  color: #1c2126;
+  opacity: 1;
+  padding: 10px 0 0 750px;
+}
+.value {
+  margin-top: 30px;
+  margin-left: 100px;
+  display: flex;
+}
+.basic {
+  width: 243px;
+  height: 825px;
+  margin: 0 0 0 250px;
+  transition: background-color 0.3s ease;
+}
+
+.basic:hover {
+  background-color: #4525f2;
+  color: white;
+}
+.basic:hover h1 {
+  color: white;
+}
+.basic:hover .type1 > p {
+  color: white;
+}
+.basic:hover > p {
+  color: #b4a8f9;
+}
+.basic:hover .btn5 > a > button {
+  background-color: white;
+  color: #000;
+}
+.basic:hover > .type2 > p {
+  color: #b4a8f9;
+}
+.basic:hover > .item-list > ul > li {
+  color: #b4a8f9;
+}
+.basic > h1 {
+  top: 949px;
+  left: 170px;
+  width: 86px;
+  height: 42px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal bold 35px/43px Proxima Nova;
+  letter-spacing: 0.28px;
+  color: #1c2126;
+  opacity: 1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 65px;
+}
+.basic > p {
+  top: 1006px;
+  left: 96px;
+  width: 233px;
+  height: 74px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 600 16px/26px Proxima Nova;
+  letter-spacing: 0.4px;
+  color: #737373;
+  opacity: 1;
+}
+button {
+  top: 1252px;
+  left: 141px;
+  width: 144px;
+  height: 48px;
+  /* UI Properties */
+  background: #4525f2 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  color: #f2f4f8;
+  opacity: 1;
+}
+.type1 > p {
+  top: 1175px;
+  left: 96px;
+  width: 233px;
+  height: 37px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal bold 13px/19px Noto Sans;
+  letter-spacing: 0.39px;
+  color: #1c2126;
+  opacity: 1;
+  padding: 10px 0 10px 0;
+}
+.type2 > p {
+  top: 1382px;
+  left: 107px;
+  width: 212px;
+  height: 46px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 600 16px/26px Proxima Nova;
+  letter-spacing: 0.4px;
+  color: #737373;
+  opacity: 1;
+  padding: 30px 0 30px 15px;
+}
+.item-list > ul > li {
+  top: 1478px;
+  left: 145px;
+  width: 186px;
+  height: 20px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 600 16px/26px Proxima Nova;
+  letter-spacing: 0.4px;
+  color: #737373;
+  opacity: 1;
+  padding: 10px 0 10px 20px;
+}
+.lite {
+  padding-top: 15px;
+}
+.premium {
+  width: 243px;
+  height: 825px;
+  margin-left: 100px;
+  transition: background-color 0.3s ease;
+}
+.premium:hover {
+  background-color: #4525f2;
+  color: white;
+}
+.premium:hover h1 {
+  color: white;
+}
+.premium:hover .type1 > p {
+  color: white;
+}
+.premium:hover > p {
+  color: #b4a8f9;
+}
+.premium:hover .btn5 > a > button {
+  background-color: white;
+  color: #000;
+}
+.premium:hover > .type2 > p {
+  color: #b4a8f9;
+}
+.premium:hover > .item-list > ul > li {
+  color: #b4a8f9;
+}
+nav {
+  display: flex;
+  margin-left: 75px;
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+
+.premium > h1 {
+  top: 949px;
+  left: 455px;
+  width: 144px;
+  height: 42px;
+  text-align: center;
+  font: normal normal bold 35px/43px Proxima Nova;
+  letter-spacing: 0.28px;
+  color: #1c2126;
+  opacity: 1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.premium > p {
+  /* Layout Properties */
+  top: 1006px;
+  left: 410px;
+  width: 233px;
+  height: 74px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 600 16px/26px Proxima Nova;
+  letter-spacing: 0.4px;
+  color: #737373;
+  opacity: 1;
+}
+nav > h1 {
+  top: 1099px;
+  left: 483px;
+  width: 54px;
+  height: 53px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 44px/52px Proxima Nova;
+
+  opacity: 1;
+}
+nav > p {
+  top: 1121px;
+  left: 537px;
+  width: 31px;
+  height: 22px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 18px/26px Proxima Nova;
+  letter-spacing: -0.09px;
+  opacity: 1;
+  margin-top: 20px;
+  font: bolder;
+}
+.item-list > ul > li {
+  top: 1478px;
+  left: 145px;
+  width: 186px;
+  height: 20px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 600 16px/26px Proxima Nova;
+  letter-spacing: 0.4px;
+  color: #737373;
+  opacity: 1;
+  padding: 10px 0 10px 20px;
+}
+.business {
+  width: 243px;
+  height: 825px;
+  margin-left: 100px;
+  transition: background-color 0.3s ease;
+}
+.business > h1 {
+  top: 949px;
+  left: 455px;
+  width: 144px;
+  height: 42px;
+  text-align: center;
+  font: normal normal bold 35px/43px Proxima Nova;
+  letter-spacing: 0.28px;
+  color: #1c2126;
+  opacity: 1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.business > p {
+  /* Layout Properties */
+  top: 1006px;
+  left: 410px;
+  width: 233px;
+  height: 74px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 600 16px/26px Proxima Nova;
+  letter-spacing: 0.4px;
+  color: #737373;
+  opacity: 1;
+}
+nav > h1 {
+  top: 1099px;
+  left: 483px;
+  width: 54px;
+  height: 53px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 44px/52px Proxima Nova;
+
+  opacity: 1;
+}
+nav > p {
+  top: 1121px;
+  left: 537px;
+  width: 31px;
+  height: 22px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 18px/26px Proxima Nova;
+  letter-spacing: -0.09px;
+  opacity: 1;
+  margin-top: 20px;
+  font: bolder;
+}
+.business:hover {
+  background-color: #4525f2;
+  color: white;
+}
+.business:hover h1 {
+  color: white;
+}
+.business:hover .type1 > p {
+  color: white;
+}
+.business:hover > p {
+  color: #b4a8f9;
+}
+.business:hover .btn5 > a > button {
+  background-color: white;
+  color: #000;
+}
+.business:hover > .type2 > p {
+  color: #b4a8f9;
+}
+.business:hover > .item-list > ul > li {
+  color: #b4a8f9;
+}
+.enterprise {
+  width: 243px;
+  height: 825px;
+  margin-left: 100px;
+  transition: background-color 0.3s ease;
+}
+.enterprise > h1 {
+  top: 949px;
+  left: 455px;
+  width: 144px;
+  height: 42px;
+  text-align: center;
+  font: normal normal bold 35px/43px Proxima Nova;
+  letter-spacing: 0.28px;
+  color: #1c2126;
+  opacity: 1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.enterprise > p {
+  /* Layout Properties */
+  top: 1006px;
+  left: 410px;
+  width: 233px;
+  height: 74px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 600 16px/26px Proxima Nova;
+  letter-spacing: 0.4px;
+  color: #737373;
+  opacity: 1;
+}
+.enterprise:hover {
+  background-color: #4525f2;
+  color: white;
+}
+.enterprise:hover h1 {
+  color: white;
+}
+.enterprise:hover .type1 > p {
+  color: white;
+}
+.enterprise:hover > p {
+  color: #b4a8f9;
+}
+.enterprise:hover .btn5 > a > button {
+  background-color: white;
+  color: #000;
+}
+.enterprise:hover > .type2 > p {
+  color: #b4a8f9;
+}
+.enterprise:hover > .item-list > ul > li {
+  color: #b4a8f9;
+}
+.plan {
+  top: 1925px;
+  left: 0px;
+  height: 1136px;
+  width: 10366px;
+  background-color: #4525f2;
+  margin-top: 100px;
+}
+.plan > h1 {
+  top: 2000px;
+  left: 363px;
+  width: 640px;
+  height: 63px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal bold 52px/60px Proxima Nova;
+  letter-spacing: 0.73px;
+  color: #f2f4f8;
+  opacity: 1;
+  padding-top: 50px;
+  padding-left: 600px;
+}
+.plan > p {
+  top: 2086px;
+  left: 426px;
+  width: 514px;
+  height: 44px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 600 16px/22px Noto Sans;
+  letter-spacing: 0px;
+  color: #f2f4f8;
+  opacity: 1;
+  padding-left: 665px;
+  padding-top: 20px;
+}
+.list {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 530px;
+}
+.features {
+  width: 160px;
+  height: 859px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+.features:hover {
+  background-color: #fff;
+}
+.features:hover > .item1 > li > ul {
+  color: #000;
+}
+.features:hover > p {
+  color: #000;
+}
+.features > p {
+  top: 2237px;
+  left: 143px;
+  width: 14px;
+  height: 42px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 35px/43px Proxima Nova;
+  letter-spacing: 0.28px;
+  color: #f2f4f8;
+  opacity: 1;
+}
+.item1 > ul > li {
+  /* Layout Properties */
+  top: 2318px;
+  left: 143px;
+  width: 120px;
+  height: 24px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 600 18px/24px Noto Sans;
+  letter-spacing: 0px;
+  color: #f2f4f8;
+  opacity: 1;
+  padding: 20px 0 20px 0;
+}
+.item3 > ul > li {
+  /* Layout Properties */
+  top: 2318px;
+  left: 143px;
+  width: 120px;
+  height: 24px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 600 18px/24px Noto Sans;
+  letter-spacing: 0px;
+  color: #000;
+  opacity: 1;
+  padding: 20px 0 20px 0;
+}
+.features:hover > .item3 > ul > li {
+  color: #000;
+}
+.btnn > button {
+  background-color: #fff;
+  color: #000;
+}
+.features:hover > .btnn > button {
+  background-color: #4525f2;
+}
+.drake > p {
+  top: 2237px;
+  left: 143px;
+  width: 14px;
+  height: 42px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 35px/43px Proxima Nova;
+  letter-spacing: 0.28px;
+  color: #f2f4f8;
+  opacity: 1;
+}
+.more {
+  top: 3195px;
+  left: 0px;
+  width: 1896px;
+  height: 431px;
+}
+.note {
+  float: right;
+}
+.note > h1 {
+  /* Layout Properties */
+  top: 3318px;
+  left: 804px;
+  width: 442px;
+  height: 123px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal bold 52px/60px Proxima Nova;
+  letter-spacing: 0.73px;
+  color: #1c2126;
+  opacity: 1;
+}
+.intro > p {
+  /* Layout Properties */
+  top: 3462px;
+  left: 767px;
+  width: 516px;
+  height: 44px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 600 16px/22px Noto Sans;
+  letter-spacing: 0px;
+  color: #1c2126;
+  opacity: 1;
+}
+.footer {
+  top: 3626px;
+  left: 0px;
+  width: 13606px;
+  height: 504px;
+  background-color: #d7dcde;
+}
+.info {
+  padding: 100px 0 0 100px;
+}
+.info > h1 {
+  top: 3756px;
+  left: 143px;
+  width: 391px;
+  height: 42px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 35px/43px Proxima Nova;
+  letter-spacing: 0.28px;
+  color: #1c2126;
+  opacity: 1;
+}
+.info > p {
+  /* Layout Properties */
+  top: 3813px;
+  left: 143px;
+  width: 344px;
+  height: 74px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 600 16px/26px Proxima Nova;
+  letter-spacing: 0.4px;
+  color: #a1a1a1;
+  opacity: 1;
+}
+.menu-item > h1 {
+  top: 3761px;
+  left: 695px;
+  width: 108px;
+  height: 32px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 26px/35px Proxima Nova;
+  letter-spacing: 0.42px;
+  color: #1c2126;
+  opacity: 1;
+}
+.menu-item > ul > li {
+  top: 3828px;
+  left: 695px;
+  width: 84px;
+  height: 24px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 600 18px/24px Noto Sans;
+  letter-spacing: 0px;
+  color: #1c2126;
+  opacity: 1;
+  padding: 10px 0 0 10px;
+}
+.menu-item {
+  display: flex;
+}
